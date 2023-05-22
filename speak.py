@@ -4,7 +4,7 @@ import openai
 
 def transcrever_fala():
     
-    chave_assinatura = 'c2698082b28e46fba8234b3d6e567eb5'
+    chave_assinatura = 'YOUR_API?_KEY'
     regiao = 'brazilsouth'
 
     
@@ -33,7 +33,7 @@ def transcrever_fala():
         return None
 
 def resumir_texto(texto):
-    openai.api_key = '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'
+    openai.api_key = 'YOUR_API?_KEY'
 
     response = openai.Completion.create(
         model="text-davinci-003",
